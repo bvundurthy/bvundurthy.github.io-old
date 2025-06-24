@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
   gem 'jekyll'
+# This is for Windows time zone support
+  gem 'tzinfo', '~> 1.2'
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+  gem 'bigdecimal'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'

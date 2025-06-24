@@ -11,6 +11,15 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Research"
+    children:
+      - title: "Multi-agent Systems"
+        url: /multi-agent-systems/
+      - title: "Game Theory"
+        url: /game-theory/
+      - title: "Robotic Testbeds"
+        url: /robotic-testbeds/
+
   - title: "Talks"
     url: /talks/    
 
